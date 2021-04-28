@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Actividad 3</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <form action="" method="post">
+    <fieldset>
+      <legend>Solicitando Empleo</legend>
+      <label> Nombre:
+        <input type="text" name="Nombre" required>
+      </label>
+      <br>
+      <label> Apellido Paterno:
+        <input type="text" name="APaterno" required>
+      </label>
+      <br>
+      <label> Apellido Materno:
+        <input type="text" name="AMaterno" required>
+      </label>
+      <br>
+      <label>Sexo:</label>
+      <select name="Sexo">
+        <option value="H">Hombre</option>
+        <option value="M">Mujer</option>
+      </select>
+      <br>
+      <label>E-mail:
+        <input type="email" name="mail" required>
+      </label>
+      <br>
+      <label>Descripción:
+        <br>
+        <textarea name="Desc" rows="17" cols="40">
+        </textarea>
+      </label>
+      <br>
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Limpiar" value="Limpiar">
+    </fieldset>
+  </form>
+  </body>
+</html>
